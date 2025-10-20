@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  color: #fff;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Liens sociaux */
+.social-link {
+  color: #fff;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+.social-link:hover {
+  transform: scale(1.1);
+  color: #3d3837;
+}
+.social-icon {
+  margin-bottom: 10px;
+}
+
+/* Animation au scroll */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-out;
+}
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Formulaire de contact */
+#contact-form {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  flex-shrink: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+footer a {
+  color: rgb(10, 10, 219);
+  text-decoration: underline;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* by Abdoul Rachid BISSARE / +229 01 63 61 49 80 */
